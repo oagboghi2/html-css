@@ -1,0 +1,28 @@
+body{
+  /*background-color: blue;*/
+  border-style: solid;
+  border-color: blue;
+}
+
+.stanza{
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  line-break: auto;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-color: red;
+  width:500px;
+  height:400px;
+}
+
+#wrap{
+  border-style: solid;
+  border-color: green;
+}
